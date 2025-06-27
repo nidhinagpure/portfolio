@@ -8,14 +8,14 @@ const Navbar = () => {
     <div className='navbar'>
         <img src={ Plogo} atl="logo-portfolio" className='p-logo'/>
         <ul className='nav-menu'>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Services</li>
-            <li>Skills</li>
-            <li>Contact</li>
-            <li>Project</li>
+            <li className='li'>Home</li>
+            <li className='li'>About Me</li>
+            <li className='li'>Services</li>
+            <li className='li'>Skills</li>
+            <li className='li'>Contact</li>
+            <li className='li'>Project</li>
         </ul>
-        <div className='nav-connect'>Connect With Me</div>
+        <div className='nav-connect'>Connect Me</div>
 
       
     </div>
