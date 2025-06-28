@@ -1,0 +1,120 @@
+.connect{
+    margin-top: 100px;
+    position: relative;
+}
+.connect p{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+}
+.connect img {
+    height: 34px;
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 38%;
+    z-index: -1;
+}
+
+.connect-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap:30px;
+    margin: 20px auto;
+}
+.social-media {
+   margin-top: 20px;
+   align-items: center;
+   justify-content: center;
+}
+.social-media img{
+    background-color: white;
+    padding: 2px 2px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+}
+.social-media a{
+     align-items: center;
+     text-decoration: none;
+     color: white;
+}
+.talk-cotent h2 {
+    font-size: 30px;
+    background: linear-gradient(267deg, #DA7C25 0.40%, #B923E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    word-spacing: 1px;   
+}
+.talk-cotent h4{
+     font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;   
+    margin-top: 10px;
+    background: linear-gradient(267deg, #e5e2df 0.40%, #e4a5f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.talk-cotent{
+     margin-top: 70px;
+    margin-left: 250px;
+    margin-right: 120px;
+    justify-content: space-evenly;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 18px;
+     
+}
+.message{
+    width:370px;
+    font-size: 14px;
+    padding: 10px 20px;
+    position: relative;
+    height: 140px;
+    margin:10px;
+    top:2px;
+    right: 4px;
+}
+.input-container{
+    margin-right: 220px;
+    position: relative;
+     margin-top: 70px;
+     margin-bottom: 70px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 16px;
+  align-items: flex-start;
+}
+
+/* Email line: icon + text in one row */
+.email-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+/* Icons row: GitHub + LinkedIn side by side */
+.icon-section {
+
+  display: flex;
+  gap: 30px;
+}
+
+.icon-section img {
+  width: 35px;
+  height: 35px;
+}
