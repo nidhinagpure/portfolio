@@ -19,7 +19,7 @@ const About = () => {
                 <p> I enjoy the challenge of coding and solving real-world problems. Currently,
                     I’m looking for opportunities to join a team that values innovation and shares my enthusiasm for technology.</p>
             </div>
-            <p className='certificate'><span>Certificate : </span>FullStack  Developer</p>
+            <p className='certificate'><span>Certificate : </span> FullStack  Developer</p>
             <div className='certificate-div'>
                 <img src={Certificate} className='certificate-img' alt="certificate"/>
             </div>
