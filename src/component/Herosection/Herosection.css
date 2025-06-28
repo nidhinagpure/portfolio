@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+     margin-top: 20px;
 }
  .hero-section h1 {
     margin-top: 24px;
@@ -38,12 +39,12 @@
    background: linear-gradient(267deg, #DA7C25 0.40%, #B923E1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: inline-block;
 } 
 
 .hero-action{
      display: flex;
      margin: 40px;
-
 }
 .action-btn{
     display: flex;
