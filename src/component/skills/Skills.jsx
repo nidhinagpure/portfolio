@@ -9,7 +9,7 @@ const Skills = () => {
         <div>
 
             <div className='skill-container'>
-                <p>Sevices</p>
+                <p>My Sevices</p>
                 <img src={Hoverline} alt=""/>
             
             </div>
@@ -38,7 +38,7 @@ const Skills = () => {
 
             <div className='skill-section'>
                 <img src={Code} alt="code-img" />
-                <h2>UI Development</h2>
+                <h2>UX Development</h2>
                 <p>UI (User Interface) development focuses on creating the
                     visual elements of a website or application. I specialize
                     in turning design mockups into interactive interfaces using

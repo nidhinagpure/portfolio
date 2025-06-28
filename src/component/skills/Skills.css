@@ -5,11 +5,11 @@
 
 .skill-container img {
     height: 20px;
-    width: 180px;
+    width: 500px;
     position: absolute;
     bottom: 0;
     right: 0;
-    left: 47%;
+    left: 38%;
     z-index: -1;
 }
 
