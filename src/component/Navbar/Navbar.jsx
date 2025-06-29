@@ -1,4 +1,4 @@
-import './../Navbar/Navbar.css';
+import './Navbar.css';
 
 import Plogo from './../../assets/nidhi-logo.png';
 import Underline from '../../assets/under-line.svg';

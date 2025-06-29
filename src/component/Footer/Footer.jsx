@@ -1,4 +1,4 @@
-import '../../component/Footer/Footer.css';
+import './Footer.css';
 import Person from '../../assets/person.png';
 import Logo from '../../assets/nidhi-logo.png';
 

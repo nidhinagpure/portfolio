@@ -1,9 +1,7 @@
-import './../Herosection/Herosection.css';
+import './Herosection.css';
 
 import Nidhi from '../../assets/nidhi.jpg';
-import Linkdin from '../../assets/linkdin.png';
-import Github from '../../assets/github.png';
-import Email from '../../assets/email.png';
+
 
 const Herosection = () => {
     return (
