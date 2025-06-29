@@ -7,7 +7,7 @@ import Email from '../../assets/email.png';
 
 const Herosection = () => {
     return (
-        <div className='hero-section'>
+        <div className='hero-section' id="home">
                  <img src={Nidhi} alt='Nidhi-img' className="nidhi-img" />
             
             <h1><span>Hello, I'm</span> Nidhi Nagpure</h1>

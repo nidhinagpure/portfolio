@@ -5,7 +5,7 @@ import Hoverline from '../../assets/under-line.svg';
 
 const Project = () => {
   return (
-    <div>
+    <div id="project">
       <div className='work-conatiner'>
         <p>My latest Work</p>
         <img src={Hoverline} alt=""/>

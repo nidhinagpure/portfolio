@@ -6,7 +6,7 @@ import Userinterface from '../../assets/userinter.png';
 
 const Skills = () => {
     return (
-        <div>
+        <div id="services">
 
             <div className='skill-container'>
                 <p>My Sevices</p>

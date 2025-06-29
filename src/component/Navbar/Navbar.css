@@ -19,6 +19,16 @@
     font-size: 22px;
     cursor: pointer;
 }
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
 .nav-connect{
     padding: 8px 20px;
     margin-right: 150px;

@@ -4,16 +4,16 @@
 }
 .connect p{
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
     margin-top: 60px;
 }
 .connect img {
-    height: 34px;
+    height: 40px;
     width: 500px;
     position: absolute;
     bottom: 0;
     right: 0;
-    left: 38%;
+    left: 42%;
     z-index: -1;
 }
 
@@ -21,7 +21,8 @@
     display: flex;
     justify-content: space-evenly;
     gap:30px;
-    margin: 20px auto;
+    margin: 30px auto;
+    margin-right: 20px;
 }
 .social-media {
    margin-top: 20px;
@@ -30,7 +31,7 @@
 }
 .social-media img{
     background-color: white;
-    padding: 2px 2px;
+    padding: 4px 4px;
     border-radius: 50px;
     cursor: pointer;
     display: flex;
@@ -44,7 +45,7 @@
      color: white;
 }
 .talk-cotent h2 {
-    font-size: 30px;
+    font-size: 50px;
     background: linear-gradient(267deg, #DA7C25 0.40%, #B923E1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,7 +55,7 @@
     word-spacing: 1px;   
 }
 .talk-cotent h4{
-     font-size: 20px;
+    font-size: 20px;
     letter-spacing: 1px;
     word-spacing: 1px;   
     margin-top: 10px;
@@ -65,13 +66,13 @@
 }
 
 .talk-cotent{
-     margin-top: 70px;
+    margin-top: 70px;
     margin-left: 250px;
     margin-right: 120px;
     justify-content: space-evenly;
     letter-spacing: 1px;
     word-spacing: 1px;
-    font-size: 18px;
+    font-size: 20px;
      
 }
 .message{
@@ -87,15 +88,15 @@
 .input-container{
     margin-right: 220px;
     position: relative;
-     margin-top: 70px;
-     margin-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .social-media {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding-top: 16px;
+  gap: 14px;
+  padding-top: 18px;
   align-items: flex-start;
 }
 
@@ -104,12 +105,11 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* Icons row: GitHub + LinkedIn side by side */
 .icon-section {
-
   display: flex;
   gap: 30px;
 }
@@ -118,3 +118,42 @@
   width: 35px;
   height: 35px;
 }
+
+
+.form-section {
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 50px;
+  margin-right: 140px;
+  margin-bottom: 90px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section label {
+  margin-bottom: 12px;
+}
+
+.form-section input,
+.form-section textarea {
+  padding: 8px 12px;      /* 8px top padding for placeholder spacing */
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(68, 68, 68);
+  color: white;
+  outline: none;
+  width: 100%;
+}
+
+.form-section textarea {
+  resize: vertical;
+}
+
+

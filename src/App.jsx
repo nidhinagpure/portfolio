@@ -5,6 +5,7 @@ import Services  from './component/services/Services';
 import Skills from './component/skills/Skills';
 import Project from './component/project/Project';
 import Connect from './component/connectme/Connect';
+import Footer from './component/Footer/Footer';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Skills/>
       <Project/>
       <Connect/>
+      <Footer/>
     </div>
   )
 }

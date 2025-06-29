@@ -13,7 +13,7 @@ import Mongodb from '../../assets/Mongodb.png'
 
 const Services = () => {
     return (
-        <div>
+        <div id="skill">
             <div className='service-div'>
                 <p>Technical Skills </p>
                 <img src={Hoverline} className='hover-line' alt="" />

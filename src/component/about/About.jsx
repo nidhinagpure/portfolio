@@ -7,7 +7,7 @@ import Certificate from '../../assets/certificate.jpeg';
 
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about' id="about">
             <div className='heading'>
                 <p className="about-title">About Me</p>
                 <img src={Hoverimge} className="hover-img" alt="hover-img" />
