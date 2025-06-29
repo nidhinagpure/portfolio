@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../../component/connectme/Connect.css';
 
 import Hoverline from '../../assets/under-line.svg';
@@ -7,6 +9,31 @@ import Linkdin from '../../assets/Linkdin.png';
 import Vercel from '../../assets/Vercel.png';
 
 const Connect = () => {
+
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "003b71fa-e00b-41d4-a257-a2fe662bcb5e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      alert("Form Submitted Successfully");
+       event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <div id="connects">
       <div className='connect'>
@@ -43,19 +70,21 @@ const Connect = () => {
         </div>
 
         <div className='form-section'>
-          <form>
+          <form onSubmit={onSubmit}>
             <label htmlFor="name">You Name:</label>
-            <input type="text" id="name" placeholder="Enter Your Name" />
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" />
 
             <label htmlFor="email">You E-mail:</label>
-            <input type="email" id="email" placeholder="Enter Your E-mail" />
+            <input type="email" name="email" id="email" placeholder="Enter Your E-mail" />
 
             <label htmlFor="message">Write Your message here:</label>
-            <textarea id="message" placeholder="Enter Your Message" rows="8"></textarea>
+            <textarea id="message"name="message" placeholder="Enter Your Message" required rows="8"></textarea>
+                <button className='submit-btn' >Submit</button>
           </form>
         </div>
       </div>
     </div>
+   
   );
 };
 

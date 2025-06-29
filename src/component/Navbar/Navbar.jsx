@@ -17,7 +17,6 @@ const Navbar = () => {
             <li><AnchorLink className='a-link'  offset={50} href='#skill'><p onClick={()=>setmenu("skill")}>Skills</p>{menu==="services"?<img src={Underline} alt="" style={{height:"10px"}}/>:<></>}</AnchorLink></li>
             <li><AnchorLink className='a-link'  offset={50} href='#services'><p onClick={()=>setmenu("services")}>Services</p>{menu==="skill"?<img src={Underline} alt="" style={{height:"10px"}}/>:<></>}</AnchorLink></li>
             <li><AnchorLink className='a-link'  offset={50} href='#project'><p onClick={()=>setmenu("project")}>Project</p>{menu==="project"?<img src={Underline} alt="" style={{height:"10px"}}/>:<></>}</AnchorLink></li>
-            <li><AnchorLink className='a-link'  offset={50} href='#connects'><p onClick={()=>setmenu("connects")}>Contact</p>{menu==="connects"?<img src={Underline} alt="" style={{height:"10px"}}/>:<></>}</AnchorLink></li>
 
         </ul>
         <AnchorLink className='a-link'  offset={50} href='#connects'><div className='nav-connect'>Connect Me</div></AnchorLink> 

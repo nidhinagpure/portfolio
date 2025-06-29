@@ -1,7 +1,7 @@
 import './Herosection.css';
 
 import Nidhi from '../../assets/nidhi.jpg';
-
+import Pdf from '../../assets/pdf.jpeg';
 
 const Herosection = () => {
     return (
@@ -14,7 +14,7 @@ const Herosection = () => {
             <p> and user-friendly web applications from front to back .</p>
              <div className='hero-action'>
                 <div className='action-btn'>Education</div>
-                <div className='my-resume'><a href="image.png" download="new-name.png">My Resume</a></div>
+                <div className='my-resume'><a href={Pdf} download="new-name.png">My Resume</a></div>
             </div>
              
             </div>
