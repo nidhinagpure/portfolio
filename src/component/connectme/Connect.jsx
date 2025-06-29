@@ -8,8 +8,8 @@ import Vercel from '../../assets/Vercel.png';
 
 const Connect = () => {
   return (
-    <div>
-      <div className='connect' id="contact">
+    <div id="connects">
+      <div className='connect'>
         <p>Get In Touch</p>
         <img src={Hoverline} alt="" />
       </div>

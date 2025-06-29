@@ -25,6 +25,10 @@
     gap: 5px;
     cursor: pointer;
 }
+.a-link{
+    text-decoration: none;
+    color: white;
+}
 .nav-menu li img{
     display: flex;
     margin: auto;
