@@ -22,15 +22,15 @@ const Project = () => {
               voluptatem aliquam expedita quas. </p>
           </div>
           <div className='project-link'>
-            <a href='#'>😊: Live Demo</a>
-            <a href='#'>😀: Repository</a>
+            <a href='https://github.com/nidhinagpure/portfolio'target='_blank'rel='noopener noreferrer'>😊: Live Demo</a>
+            <a href='https://github.com/nidhinagpure/portfolio'target='_blank'rel='noopener noreferrer'>😀: Repository</a>
           </div>
         </div>
         </div>
 
       <div className='project-img'>
 
-        <a href=''><img src={Projectimg} alt="project-img" /></a>
+        <a href='https://github.com/nidhinagpure/portfolio'><img src={Projectimg} alt="project-img" /></a>
         <div className='project-info'>
           <h3>Project Info 👍</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
@@ -40,15 +40,15 @@ const Project = () => {
 
         </div>
         <div className='project-link'>
-          <a href='#'>😊: Live Demo</a>
-          <a href='#'>😀: Repository</a>
+          <a href='https://github.com/nidhinagpure/portfolio'target='_blank'rel='noopener noreferrer'>😊: Live Demo</a>
+          <a href='https://github.com/nidhinagpure/portfolio'target='_blank'rel='noopener noreferrer'>😀: Repository</a>
         </div>
       </div>
 
 
       <div className='project-img'>
 
-        <a href=''><img src={Projectimg} alt="project-img" /></a>
+        <a href='https://github.com/nidhinagpure/portfolio'><img src={Projectimg} alt="project-img" /></a>
         <div className='project-info'>
           <h3>Project Info 👍</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
@@ -58,12 +58,10 @@ const Project = () => {
 
         </div>
         <div className='project-link'>
-          <a href='#'>😊: Live Demo</a>
-          <a href='#'>😀: Repository</a>
+          <a href='https://github.com/nidhinagpure/portfolio'target='_blank'rel='noopener noreferrer'>😊: Live Demo</a>
+          <a href='https://github.com/nidhinagpure/portfolio' target='_blank'rel='noopener noreferrer'>😀: Repository</a>
         </div>
       </div>
-
-
     </div>
     </div>
   )
