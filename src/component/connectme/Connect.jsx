@@ -79,7 +79,9 @@ const Connect = () => {
 
             <label htmlFor="message">Write Your message here:</label>
             <textarea id="message"name="message" placeholder="Enter Your Message" required rows="8"></textarea>
-                <button className='submit-btn' >Submit</button>
+            <div>
+               <button className='submit-btn' >Submit</button>
+            </div>
           </form>
         </div>
       </div>

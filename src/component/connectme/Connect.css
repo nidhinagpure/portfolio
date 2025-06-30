@@ -1,14 +1,16 @@
 .connect{
-    margin-top: 180px;
+    margin-top: 40px; 
     position: relative;
+     padding-top: 100px;
+    margin-top: -100px;
 }
 .connect p{
     text-align: center;
-    font-size: 60px;
-    margin-top: 40px;
+    font-size: 55px;
+    margin-top: 10px;
 }
 .connect img {
-    height: 40px;
+    height: 35px;
     width: 500px;
     position: absolute;
     bottom: 0;
@@ -21,7 +23,7 @@
     display: flex;
     justify-content: space-evenly;
     gap:30px;
-    margin: 20px auto;
+    margin: 0 auto;
     margin-right: 20px;
 }
 .social-media {
@@ -67,8 +69,8 @@
 
 .talk-cotent{
     margin-top: 70px;
-    margin-left: 250px;
-    margin-right: 120px;
+    margin-left: 200px;
+    margin-right: 180px;
     justify-content: space-evenly;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -157,7 +159,6 @@
 }
 
 .submit-btn{
-  margin-top: 8px;
   padding: 10px 32px;
   border: none;
   font-size: 20px;
@@ -168,5 +169,169 @@
   background: linear-gradient(267deg, #DA7C25 0.40%, #B923E1 100%);
 
 }
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .connect p {
+    font-size: 34px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .connect img {
+    width: 240px;
+    height: 30px;
+    left: 36%;
+  }
+
+  .connect-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+    width: 90%;
+  }
+
+  .talk-cotent {
+    margin: 0;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .talk-cotent h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .talk-cotent h4 {
+    font-size: 16px;
+  }
+
+  .form-section {
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .input-container {
+    margin: 0;
+    width: 100%;
+  }
+
+  .message {
+    width: 100%;
+    margin: 12px 0;
+    height: 120px;
+    font-size: 14px;
+  }
+
+  .form-section input,
+  .form-section textarea {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .social-media {
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .email-section {
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  .icon-section {
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .icon-section img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .connect p {
+    font-size: 44px;
+  }
+
+  .connect img {
+    width: 400px;
+    left: 30%;
+  }
+
+  .connect-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-right: 0;
+  }
+
+  .talk-cotent {
+    margin: 0 40px;
+    text-align: center;
+  }
+
+  .talk-cotent h2 {
+    font-size: 38px;
+  }
+
+  .form-section {
+    width: 90%;
+    margin: 0 auto 50px auto;
+  }
+
+  .message {
+    width: 100%;
+  }
+
+  .social-media {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .icon-section {
+    gap: 24px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .connect p {
+    font-size: 50px;
+  }
+
+  .connect img {
+    width: 450px;
+    left: 34%;
+  }
+
+  .connect-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+
+  .talk-cotent {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .form-section {
+    margin-right: 80px;
+  }
+
+  .message {
+    width: 100%;
+  }
+}
+
 
 

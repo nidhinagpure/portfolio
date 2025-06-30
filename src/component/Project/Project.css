@@ -1,10 +1,12 @@
-
-.work-conatiner{
-     margin-top: 100px;
+.work-conatiner {
     position: relative;
+    padding-top: 100px;
+    margin-top: -100px;
+    margin-top: 10%;
 }
-.work-conatiner img{
-     height: 40px;
+
+.work-conatiner img {
+    height: 40px;
     width: 500px;
     position: absolute;
     bottom: 0;
@@ -12,28 +14,29 @@
     left: 42%;
     z-index: -1;
 }
-.work-conatiner p{
+
+.work-conatiner p {
     text-align: center;
     font-size: 60px;
-    margin-top: 10px;
 }
 
 .project-container img {
     width: 100%;
     position: relative;
 }
-.project{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  padding: 30px;
-  margin-top: 50px;
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 50px;
 }
 
 .project-img {
-        cursor: pointer;
-         width: 400px;
+    cursor: pointer;
+    width: 400px;
     position: relative;
 }
 
@@ -88,7 +91,8 @@
     padding-right: 10px;
     color: rgb(249, 249, 250);
 }
-.project-link{
+
+.project-link {
     display: flex;
     gap: 100px;
     margin-left: 4%;
@@ -96,8 +100,146 @@
     font-size: 20px;
     cursor: pointer;
 }
+
 .project-link a {
     text-decoration: none;
     color: rgb(237, 232, 232);
     margin-bottom: 90px;
+}
+
+/* 📱 Tablet Devices (600px – 768px) */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .work-conatiner p {
+        font-size: 36px;
+    }
+
+    .work-conatiner img {
+        width: 280px;
+        left: 25%;
+    }
+
+    .project {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .project-img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .project-img img,
+    .project-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-info h3 {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .project-info p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .project-link {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+/* 💻 Small Laptops (769px – 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .work-conatiner p {
+        font-size: 48px;
+    }
+
+    .work-conatiner img {
+        width: 340px;
+        left: 33%;
+    }
+
+    .project {
+        flex-wrap: wrap;
+        gap: 24px;
+        padding: 20px 30px;
+    }
+
+    .project-img {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .project-img img,
+    .project-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-info h3 {
+        font-size: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .project-info p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .project-link {
+        gap: 10px;
+        font-size: 18px;
+        margin-left: 5%;
+    }
+}
+
+/* 💻 Medium Laptops (993px – 1200px) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .work-conatiner img {
+        width: 380px;
+        left: 37%;
+    }
+
+    .work-conatiner p {
+        font-size: 54px;
+    }
+
+    .project {
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .project-img {
+        width: 42%;
+    }
+
+    .project-img img,
+    .project-info {
+        width: 100%;
+        height: 240px;
+    }
+
+    .project-info h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .project-info p {
+        font-size: 18px;
+    }
+
+    .project-link {
+        gap: 40px;
+        font-size: 18px;
+        margin-left: 8%;
+    }
 }
