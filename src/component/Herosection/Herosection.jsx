@@ -12,10 +12,6 @@ const Herosection = () => {
             <h2>I'm a <span>Full Stack Developer</span></h2>
             <p>Bridging the gap between design and functionality, I specialize in creating smart, scalable,</p>
             <p> and user-friendly web applications from front to back .</p>
-             <div className='hero-action'>
-                <div className='action-btn'>Education</div>
-                <div className='my-resume'><a href={Pdf} download="new-name.png">My Resume</a></div>
-            </div>
              
             </div>
     )
